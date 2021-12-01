@@ -23,6 +23,7 @@ namespace rvip
 
             Console.WriteLine("Философ " + _philosopherName + " ждет вилку" + "\t ({0}мс)", _time);
 
+
             var first = _number;
             var second = (_number + 1) % (fork.Count - 1);
 
