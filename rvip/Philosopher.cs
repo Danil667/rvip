@@ -15,6 +15,7 @@ namespace rvip
         {
             _philosopherName = name;
             _number = number;
+
         }
 
         void GetFork(IList<Fork> fork)

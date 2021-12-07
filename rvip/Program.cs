@@ -20,6 +20,7 @@ namespace rvip
                 Fork.Add(new Fork());
                 Ph.Add(new Philosopher((i + 1).ToString(), i));
                 new Thread(Ph[i].Start).Start(Fork);
+
             }
         }
     }
